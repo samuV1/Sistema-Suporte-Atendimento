@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento.csproj": {}
+    "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento.csproj": {
+    "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento.csproj",
+        "projectUniqueName": "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento.csproj",
         "projectName": "Sistema Suporte Atendimento",
-        "projectPath": "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento.csproj",
+        "projectPath": "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento.csproj",
         "packagesPath": "C:\\Users\\Samuka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\Sistema Suporte Atendimento\\obj\\",
+        "outputPath": "C:\\Users\\Samuka\\Desktop\\TCC-Versionado\\Sistema Suporte Atendimento\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
